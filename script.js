@@ -8,13 +8,13 @@ function sendToChatGPT() {
   let value = document.getElementById("word-input").value;
 
   let body = {
-    model: "gpt-3.5-turbo",
+    model: "gpt-4o",
     messages: [{ role: "user", content: value }],
     tempreture: "1",
   };
 
   let headers = {
-    Authorization: "Bearer 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",
+    Authorization: "Bearer ",
   };
 
   axios
